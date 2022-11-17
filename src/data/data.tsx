@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Patrick Becker\'s Portfolio',
+  description: "Portfolio site built with NextJS, TypeScript and Tailwind",
 };
 
 /**
@@ -69,18 +69,17 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Patrick Becker.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a Kansas City based <strong className="text-stone-100">Front-End Software Developer</strong>, currently 
+         <strong className="text-stone-100"> looking for a company</strong> that needs an enthusiastic, collaborative & creative person on their team.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can find me strumming my <strong className="text-stone-100">guitar & mandolin</strong>,
+        illustrating <strong className="text-stone-100">unique ideas</strong>, and exploring beautiful{' '}
+        <strong className="text-stone-100">hiking trails</strong>.
       </p>
     </>
   ),
@@ -104,16 +103,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I'm really interested in applications that inspire people to take action. I know how to work with JavaScript, React, TypeScript, HTML/CSS and GraphQL. I will soon learn how to incorporate PWA's into my applications. I'm currently working with a front-end & back-end team to create an app for educators to more easily find information about school districts they are interested in applying to for work. I'm also creating various iterations of CRUD applications. Please message me to chat about anything and everything.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},
+    {label: 'Location', text: 'Independence, MO', Icon: MapIcon},
+    {label: 'Age', text: '36', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'American-Irish / Bolivian', Icon: FlagIcon},
+    {label: 'Interests', text: 'Traditional Irish Music, The Art of Zdzislaw Beksinski, Mythology', Icon: SparklesIcon},
+    {label: 'Study', text: 'Turing School of Software & Design', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Possibly Your Company', Icon: OfficeBuildingIcon},
   ],
 };
 
@@ -122,73 +119,34 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
-    skills: [
-      {
-        name: 'English',
-        level: 10,
-      },
-      {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
-    ],
-  },
-  {
     name: 'Frontend development',
     skills: [
+       {
+        name: 'JavaScript',
+        level: 7
+      },
       {
         name: 'React',
-        level: 9,
+        level: 8
       },
       {
         name: 'Typescript',
-        level: 7,
+        level: 6
+      },
+       {
+        name: 'CSS & SCSS',
+        level: 8
+      },
+       {
+        name: 'HTML',
+        level: 9
       },
       {
         name: 'GraphQL',
-        level: 6,
+        level: 5
       },
     ],
-  },
-  {
-    name: 'Backend development',
-    skills: [
-      {
-        name: 'Node.js',
-        level: 8,
-      },
-      {
-        name: 'Rust',
-        level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
-      },
-    ],
-  },
-  {
-    name: 'Mobile development',
-    skills: [
-      {
-        name: 'React Native',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
-      },
-    ],
-  },
+  }
 ];
 
 /**
@@ -196,71 +154,29 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Nunslinger',
+    description: 'A trio of Vanilla JS coders took on the challenge of learning TypeScript in React/React-Spring/Player to program a 2D reaction-based shooter mini game, all within a 10 day period. All game physics, player controls and logic were created by our team and all game art was hand-crafted by me in Adobe Photoshop. We wrote E2E testing in Cypress for the main page views, fetch calls, stubbing and interactive game play. We achieved this through asynchronous & paired programming with extensive project board planning in GitHub.',
+    url: 'https://patrickgbecker.github.io/nunslinger/',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Rancid Tomatillos',
+    description: 'React application that displays a movie catalog with functionality to see individual movie summaries through dynamic searching, and relevant movie trailers from YouTube on the details page. Implementation of React Router, E2E Cypress testing and deployment to Heroku.',
+    url: 'https://patrickgbecker.github.io/rancidTomatillos/',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'The Daily Dispatch',
+    description: 'The Daily Dispatch allows users to browse article samples from various sections of The New York Times. The samples also include links to the full articles.',
+    url: 'https://daily-dispatch.vercel.app/',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Report Card',
+    description: 'This application is designed to assist teachers in their search for school districts that might better meet their financial needs and provide better work conditions.',
+    url: 'https://reportcard-fe.vercel.app/',
     image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage11,
-  },
+  }
 ];
 
 /**
@@ -268,16 +184,16 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'April 2022',
+    location: 'Turing School of Software & Design',
+    title: 'Front-End Web Development Certificate',
+    content: <p>Made some flippin' good sites yo'</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'March 2009',
+    location: 'Emporia State University',
+    title: 'Associates of Fine Arts',
+    content: <p>Did some pretty good drawings and skipped class</p>,
   },
 ];
 
@@ -336,27 +252,27 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'Feel free to get a hold of me by email, on LinkedIn, Instagram or by carrier pigeon!',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'patrickgbecker@gmail.com',
+      href: 'mailto:patrickgbecker@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Independence, Missouri',
+      href: 'https://www.google.com/maps/@39.058545,-94.4696776,15z',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@patrickgbecker',
+      href: 'https://www.instagram.com/patrickgbecker/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'PatrickGBecker',
+      href: 'https://github.com/PatrickGBecker',
     },
   ],
 };
@@ -365,9 +281,7 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/PatrickGBecker'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/patrickgarrettbecker/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/patrickgbecker/'},
 ];

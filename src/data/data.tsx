@@ -10,7 +10,7 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import heroImage from '../images/header-background.jpeg';
+import heroImage from '../images/background.png';
 import porfolioImage1 from '../images/portfolio/NUNSlinger-Cover.png';
 import porfolioImage2 from '../images/portfolio/rancid-tomatillos.png';
 import porfolioImage3 from '../images/portfolio/daily-dispatch.png';

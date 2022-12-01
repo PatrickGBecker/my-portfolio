@@ -1,9 +1,10 @@
+import React from 'react';
 import {NextPage} from 'next';
 import Head from 'next/head';
 import {useRouter} from 'next/router';
 import {memo} from 'react';
 
-import {HomepageMeta} from '../../data/dataDef';
+import {HomepageMeta} from '../src/data/dataDef';
 
 const Page: NextPage<HomepageMeta> = memo(({children, title, description}) => {
   const {asPath: pathname} = useRouter();

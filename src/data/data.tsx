@@ -16,8 +16,6 @@ import porfolioImage2 from '../images/portfolio/rancid-tomatillos.png';
 import porfolioImage3 from '../images/portfolio/daily-dispatch.png';
 import porfolioImage4 from '../images/portfolio/report-card.png';
 import profilepic from '../images/Headshot.png';
-import amelia from '../images/amelia.png';
-import shauna from '../images/shauna.png';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,

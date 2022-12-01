@@ -16,6 +16,8 @@ import porfolioImage2 from '../images/portfolio/rancid-tomatillos.png';
 import porfolioImage3 from '../images/portfolio/daily-dispatch.png';
 import porfolioImage4 from '../images/portfolio/report-card.png';
 import profilepic from '../images/Headshot.png';
+import amelia from '../images/amelia.png';
+import shauna from '../images/shauna.png';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -177,36 +179,37 @@ export const education: TimelineItem[] = [
     date: 'April 2022',
     location: 'Turing School of Software & Design',
     title: 'Front-End Web Development Certificate',
-    content: <p>Made some flippin' good sites yo'</p>,
+    content: <p>I learned Object-Oriented Programming, comp recreation with semantic HTML, and clean, readable code. I also utilized front-end frameworks and libraries for building complex, scalable, fully-tested applications, as well as diving into asynchronous JavaScript and consuming APIs.</p>,
   },
   {
     date: 'March 2009',
     location: 'Emporia State University',
     title: 'Associates of Fine Arts',
-    content: <p>Did some pretty good drawings and skipped class</p>,
+    content: <p>I further developed my illustration skills with life drawings, etchings & engravings, and completed general education credits.</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'March 2020 - March 2021',
+    location: 'Westmont Hospitality Group',
+    title: 'Regional Revenue Analyst',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        ● Forecasted group and transient occupancy & rate to ensure proper inventory controls were in place for the best top and bottom line outcome, increasing year-over-year revenue by 2%.
+        ● Effectively used market data and historical trends to implement dynamic pricing patterns for upcoming days, weeks and months, increasing average monthly revenue by $2,000.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'July 2014 - March 2020',
+    location: 'Sage Hospitality',
+    title: 'Front Office Supervisor/Group Rooms Coordinator/Revenue Analyst',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        ● Implemented/monitored MLOS and pricing strategy in close partnership with Director of Revenue, increasing weekly report generation for Management/Ownership teams.
+        ● Managed room inventory, gift shop ordering, and created an enthusiastic team attitude that promoted honesty, curiosity and efficiency, resulting in a top-rated Customer Service team via TripAdvisor.
+        ● Demonstrated the ability to improvise and maintain composure in difficult situations, increasing customer loyalty and satisfaction.
       </p>
     ),
   },
@@ -219,20 +222,13 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      name: 'Shauna MacFarlane-Okongo - Frontend Software Developer',
+      text: 'Very calm, kind, gracious and patient, Patrick was really wonderful to work with. I appreciated his willingness to allow others to struggle with new ideas, and be a sounding board to make this project great. He was encouraging, gave great ideas and feedback. I would love the opportunity to work with him again at any time. No coaching at all to offer. He was a great team member! Patrick was a pleasure to work with and I would love the opportunity to work with him again on any project'
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
-    },
-    {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
-    },
+      name: 'Amelia Eiger, Full Stack Developer @Sigmatech, Space Enterprise Divison',
+      text: 'Your knack for verbalizing processes in plain English was the most helpful resource I had during our project. It is such a useful skill and made working with you easy and breezy. Also, you were such a pleasure to collaborate with. Your positive demeanor and persistence was encouraging and, in the end, look at what we made! We did it!'
+    }
   ],
 };
 

@@ -21,7 +21,7 @@ export const sendEmail = async (inputs: IGetEmail) => {
 
 export default function handler(
   req: NextApiRequest,
-  res: NextApiResponse<string>
+  res: NextApiResponse<object>
 ) {
  
 console.log('req body', req.body)

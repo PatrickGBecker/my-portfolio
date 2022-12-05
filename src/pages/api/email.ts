@@ -11,7 +11,7 @@ interface IGetEmail {
 
 export const sendEmail = async (inputs: IGetEmail) => {
   try {
-    const { data } = await axios.post(`/api/email`, inputs);
+    const {data} = await axios.post(`/api/email`, inputs);
     return data;
   } catch (err) {
     console.log(err);
@@ -21,7 +21,7 @@ export const sendEmail = async (inputs: IGetEmail) => {
 
 export default function handler(
   req: NextApiRequest,
-  res: NextApiResponse<any>
+  res: NextApiResponse<string>
 ) {
  
 console.log('req body', req.body)

@@ -1,4 +1,5 @@
 import {FC, memo, useCallback, useMemo, useState} from 'react';
+import { sendEmail } from '../../../pages/api/email';
 
 interface FormData {
   name: string;
@@ -17,6 +18,7 @@ const ContactForm: FC = memo(() => {
   );
 
   const [data, setData] = useState<FormData>(defaultData);
+  const { name, email, message } = data;
 
   const onChange = useCallback(
     <T extends HTMLInputElement | HTMLTextAreaElement>(event: React.ChangeEvent<T>): void => {
@@ -31,10 +33,8 @@ const ContactForm: FC = memo(() => {
 
   const handleSendMessage = useCallback(
     async (event: React.FormEvent<HTMLFormElement>) => {
-      event.preventDefault();
-      /**
-       * This is a good starting point to wire up your form submission logic
-       * */
+       event.preventDefault();
+        sendEmail({ email, name, message}) 
       console.log('Data to send: ', data);
     },
     [data],

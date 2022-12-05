@@ -2,7 +2,6 @@ import {ChevronDownIcon} from '@heroicons/react/outline';
 import classNames from 'classnames';
 import Image from 'next/image';
 import {FC, memo} from 'react';
-
 import {heroData, SectionId} from '../../data/data';
 import Section from '../Layout/Section';
 import Socials from '../Socials';
@@ -36,6 +35,7 @@ const Hero: FC = memo(() => {
                     'flex gap-x-2 rounded-full border-2 bg-none py-2 px-4 text-sm font-medium text-white ring-offset-gray-700/80 hover:bg-gray-700/80 focus:outline-none focus:ring-2 focus:ring-offset-2 sm:text-base',
                     primary ? 'border-orange-500 ring-orange-500' : 'border-white ring-white',
                   )}
+                  target='_blank'
                   href={href}
                   key={text}>
                   {text}

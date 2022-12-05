@@ -75,7 +75,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '../images/resume.pdf',
+      href: '../../resume.pdf',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
@@ -113,7 +113,7 @@ export const skills: SkillGroup[] = [
     skills: [
        {
         name: 'JavaScript',
-        level: 7
+        level: 8
       },
       {
         name: 'React',
@@ -122,6 +122,10 @@ export const skills: SkillGroup[] = [
       {
         name: 'Typescript',
         level: 6
+      },
+      {
+        name: 'Next.js',
+        level: 5
       },
        {
         name: 'CSS & SCSS',

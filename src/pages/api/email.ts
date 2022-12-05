@@ -7,6 +7,7 @@ interface IGetEmail {
   name: string;
   email: string;
   message: string;
+  error: string;
 }
 
 export const sendEmail = async (inputs: IGetEmail) => {
@@ -21,7 +22,7 @@ export const sendEmail = async (inputs: IGetEmail) => {
 
 export default function handler(
   req: NextApiRequest,
-  res: NextApiResponse<IGetEmail>
+  res: NextApiResponse<any>
 ) {
  
 console.log('req body', req.body)
@@ -39,7 +40,7 @@ console.log('req body', req.body)
     });
     return res.status(200);
   } else {
-    res.status(500).send({ error: 'Issue' });
+    res.status(500).send({error: 'Issue'});
   }
   return res.status(404)
 }

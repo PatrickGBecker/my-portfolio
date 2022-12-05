@@ -7,7 +7,6 @@ interface IGetEmail {
   name: string;
   email: string;
   message: string;
-  error: string;
 }
 
 export const sendEmail = async (inputs: IGetEmail) => {

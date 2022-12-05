@@ -7,7 +7,7 @@
     "clean": "rm -rf build-tsc .next",
     "compile": "yarn run -T tsc --build --verbose",
     "dev": "yarn compile && yarn next dev",
-    "lint": "yarn run -T prettier --write './src/**/*.{js,jsx,json,ts,tsx}' && eslint './src/**/*.{js,jsx,ts,tsx}' --fix --max-warnings=0",
+    "lint": "yarn run -T prettier --write './src/**/*.{js,jsx,json,ts,tsx}' && eslint './src/**/*.{js,jsx}' --fix --max-warnings=0",
     "start": "yarn next start",
     "sitemap": "yarn next-sitemap"
   },
@@ -31,8 +31,6 @@
     "@types/react": "^17.0.39",
     "@types/tailwindcss": "^3.0.9",
     "@types/webpack-env": "^1.16.3",
-    "@typescript-eslint/eslint-plugin": "^5.14.0",
-    "@typescript-eslint/parser": "^5.14.0",
     "cssnano": "^5.1.1",
     "eslint": "^8.10.0",
     "eslint-config-next": "^12.1.0",

@@ -1,7 +1,12 @@
 /* eslint-env node */
-
+require('dotenv').config();
 // https://github.com/vercel/next.js/blob/master/packages/next/next-server/server/config.ts
 const nextConfig = {
+  env: {
+    SENDGRID_API_KEY: process.env.SENDGRID_API_KEY,
+    EMAIL: process.env.EMAIL,
+    VERIFIED_EMAIL: process.env.VERIFIED_EMAIL,
+  },
   webpack: config => {
     config.resolve.fallback = { fs: false };
     const oneOfRule = config.module.rules.find(rule => rule.oneOf);

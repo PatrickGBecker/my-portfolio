@@ -1,5 +1,6 @@
 /* eslint-env node */
 require('dotenv').config();
+
 // https://github.com/vercel/next.js/blob/master/packages/next/next-server/server/config.ts
 const nextConfig = {
   env: {

@@ -197,10 +197,14 @@ export const experience: TimelineItem[] = [
     location: 'Westmont Hospitality Group',
     title: 'Regional Revenue Analyst',
     content: (
-      <p>
-        ● Forecasted group and transient occupancy & rate to ensure proper inventory controls were in place for the best top and bottom line outcome, increasing year-over-year revenue by 2%.
-        ● Effectively used market data and historical trends to implement dynamic pricing patterns for upcoming days, weeks and months, increasing average monthly revenue by $2,000.
-      </p>
+      <>
+        <p>
+          ● Forecasted group and transient occupancy & rate to ensure proper inventory controls were in place for the best top and bottom line outcome, increasing year-over-year revenue by 2%.
+        </p>
+        <p>
+          ● Effectively used market data and historical trends to implement dynamic pricing patterns for upcoming days, weeks and months, increasing average monthly revenue by $2,000.
+        </p>
+      </>
     ),
   },
   {
@@ -208,11 +212,17 @@ export const experience: TimelineItem[] = [
     location: 'Sage Hospitality',
     title: 'Front Office Supervisor/Group Rooms Coordinator/Revenue Analyst',
     content: (
-      <p>
-        ● Implemented/monitored MLOS and pricing strategy in close partnership with Director of Revenue, increasing weekly report generation for Management/Ownership teams.
-        ● Managed room inventory, gift shop ordering, and created an enthusiastic team attitude that promoted honesty, curiosity and efficiency, resulting in a top-rated Customer Service team via TripAdvisor.
-        ● Demonstrated the ability to improvise and maintain composure in difficult situations, increasing customer loyalty and satisfaction.
-      </p>
+      <>
+        <p>
+          ● Implemented/monitored MLOS and pricing strategy in close partnership with Director of Revenue, increasing weekly report generation for Management/Ownership teams.
+        </p>
+        <p>
+          ● Managed room inventory, gift shop ordering, and created an enthusiastic team attitude that promoted honesty, curiosity and efficiency, resulting in a top-rated Customer Service team via TripAdvisor.
+        </p>
+        <p>
+          ● Demonstrated the ability to improvise and maintain composure in difficult situations, increasing customer loyalty and satisfaction.
+        </p>
+      </>
     ),
   },
 ];

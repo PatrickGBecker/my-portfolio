@@ -11,10 +11,10 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/background.png';
-import porfolioImage1 from '../images/portfolio/NUNSlinger-Cover.png';
-import porfolioImage2 from '../images/portfolio/rancid-tomatillos.png';
-import porfolioImage3 from '../images/portfolio/daily-dispatch.png';
-import porfolioImage4 from '../images/portfolio/report-card.png';
+import portfolioImage1 from '../images/portfolio/NUNSlinger-Cover.png';
+import portfolioImage2 from '../images/portfolio/rancid-tomatillos.png';
+import portfolioImage3 from '../images/portfolio/daily-dispatch.png';
+import portfolioImage5 from '../images/portfolio/home-away.png';
 import profilepic from '../images/Headshot.png';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -125,7 +125,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Next.js',
-        level: 5
+        level: 8
       },
        {
         name: 'CSS & SCSS',
@@ -148,28 +148,28 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Nunslinger',
-    description: 'A trio of Vanilla JS coders took on the challenge of learning TypeScript in React/React-Spring/Player to program a 2D reaction-based shooter mini game, all within a 10 day period. All game physics, player controls and logic were created by our team and all game art was hand-crafted by me in Adobe Photoshop. We wrote E2E testing in Cypress for the main page views, fetch calls, stubbing and interactive game play. We achieved this through asynchronous & paired programming with extensive project board planning in GitHub.',
-    url: 'https://patrickgbecker.github.io/nunslinger/',
-    image: porfolioImage1,
+    title: 'Home Away',
+    description: 'A web app based on Air BnB built with Next.js, Tailwind CSS and Mapbox. The purpose of this app was to build date & calendar functionality, search functionality that displays all listings, an image carousel, loading bars, Mapbox functionality and responsive UI/UX design implementations. Please note that most of the main page is for display only and the search functionality is limited to only populate results from downtown London. More features and functionality to come in future days.',
+    url: 'https://home-away.vercel.app/',
+    image: portfolioImage5,
   },
   {
     title: 'Rancid Tomatillos',
     description: 'React application that displays a movie catalog with functionality to see individual movie summaries through dynamic searching, and relevant movie trailers from YouTube on the details page. Implementation of React Router, E2E Cypress testing and deployment to Heroku.',
     url: 'https://patrickgbecker.github.io/rancidTomatillos/',
-    image: porfolioImage2,
+    image: portfolioImage2,
   },
   {
     title: 'The Daily Dispatch',
     description: 'The Daily Dispatch allows users to browse article samples from various sections of The New York Times. The samples also include links to the full articles.',
     url: 'https://daily-dispatch.vercel.app/',
-    image: porfolioImage3,
+    image: portfolioImage3,
   },
   {
-    title: 'Report Card',
-    description: 'This application is designed to assist teachers in their search for school districts that might better meet their financial needs and provide better work conditions.',
-    url: 'https://reportcard-fe.vercel.app/',
-    image: porfolioImage4,
+    title: 'Nunslinger',
+    description: 'A trio of Vanilla JS coders took on the challenge of learning TypeScript in React/React-Spring/Player to program a 2D reaction-based shooter mini game, all within a 10 day period. All game physics, player controls and logic were created by our team and all game art was hand-crafted by me in Adobe Photoshop. We wrote E2E testing in Cypress for the main page views, fetch calls, stubbing and interactive game play. We achieved this through asynchronous & paired programming with extensive project board planning in GitHub.',
+    url: 'https://patrickgbecker.github.io/nunslinger/',
+    image: portfolioImage1,
   }
 ];
 

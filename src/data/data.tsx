@@ -14,7 +14,7 @@ import heroImage from '../images/background.png';
 import portfolioImage1 from '../images/portfolio/NUNSlinger-Cover.png';
 import portfolioImage2 from '../images/portfolio/rancid-tomatillos.png';
 import portfolioImage3 from '../images/portfolio/daily-dispatch.png';
-import portfolioImage5 from '../images/portfolio/home-away.png';
+import portfolioImage5 from '../images/portfolio/nucasa.png';
 import profilepic from '../images/Headshot.png';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -93,7 +93,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I'm really interested in applications that inspire people to take action. I know how to work with JavaScript, React, TypeScript, HTML/CSS and GraphQL. I will soon learn how to incorporate PWA's into my applications. I'm currently working with a front-end & back-end team to create an app for educators to more easily find information about school districts they are interested in applying to for work. I'm also creating various iterations of CRUD applications. Please message me to chat about anything and everything.`,
+  description: `I'm really interested in creating applications that people can use intuitively. I know how to work with JavaScript, React, TypeScript, Next.js, HTML/CSS and GraphQL. I thoroughly enjoy making progressive web apps that are accessible for everyone. I'm currently collaborating with back-end & full-stack developers to create an app that meaningfully displays comparative data from government APIs related to raising climate crisis awareness.  I'm also recreating various popular applications. Please message me to chat about anything and everything.`,
   aboutItems: [
     {label: 'Location', text: 'Independence, MO', Icon: MapIcon},
     {label: 'Age', text: '36', Icon: CalendarIcon},
@@ -148,9 +148,9 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Home Away',
-    description: 'A web app based on Air BnB built with Next.js, Tailwind CSS and Mapbox. The purpose of this app was to build date & calendar functionality, search functionality that displays all listings, an image carousel, loading bars, Mapbox functionality and responsive UI/UX design implementations. Please note that most of the main page is for display only and the search functionality is limited to only populate results from downtown London. More features and functionality to come in future days.',
-    url: 'https://home-away.vercel.app/',
+    title: 'NuCasa',
+    description: 'A web app built with Next.js, Tailwind CSS and Mapbox. The purpose of this app was to create date & calendar functionality, search functionality that displays all listings, an image carousel, loading bars, Mapbox functionality and responsive UI/UX design implementations. Please note that most of the main page is for display only and the search functionality is limited to only populate results from downtown London. More features and functionality to come in future days.',
+    url: 'https://nucasa.vercel.app/',
     image: portfolioImage5,
   },
   {

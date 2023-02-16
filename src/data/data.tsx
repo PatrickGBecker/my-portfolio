@@ -148,9 +148,9 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'NuCasa',
-    description: 'A web app built with Next.js, Tailwind CSS and Mapbox. The purpose of this app was to create date & calendar functionality, search functionality that displays all listings, an image carousel, loading bars, Mapbox functionality and responsive UI/UX design implementations. Please note that most of the main page is for display only and the search functionality is limited to only populate results from downtown London. More features and functionality to come in future days.',
-    url: 'https://nucasa.vercel.app/',
+    title: 'Mock-Search-App',
+    description: 'An educational web app built with Next.js, Tailwind CSS and Mapbox. The purpose of this app was to create date & calendar functionality, search functionality that displays all listings, an image carousel, loading bars, Mapbox functionality and responsive UI/UX design implementations. Please note that most of the main page is for display only and the search functionality is limited to only populate results from downtown London. No personal information is taken from the user.',
+    url: 'https://mock-search-app.vercel.app/',
     image: portfolioImage5,
   },
   {

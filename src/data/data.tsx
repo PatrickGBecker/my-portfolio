@@ -14,7 +14,8 @@ import heroImage from '../images/background.png';
 import portfolioImage1 from '../images/portfolio/NUNSlinger-Cover.png';
 import portfolioImage2 from '../images/portfolio/rancid-tomatillos.png';
 import portfolioImage3 from '../images/portfolio/daily-dispatch.png';
-import portfolioImage5 from '../images/portfolio/nucasa.png';
+import portfolioImage4 from '../images/portfolio/report-card.png'
+import portfolioImage5 from '../images/portfolio/mock-search-app.png';
 import profilepic from '../images/Headshot.png';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -161,9 +162,15 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'The Daily Dispatch',
-    description: 'The Daily Dispatch allows users to browse article samples from various sections of The New York Times. The samples also include links to the full articles.',
+    description: 'This project was an 8-hour coding challenge. The Daily Dispatch allows users to browse article samples from various sections of The New York Times. The samples also include links to the full articles.',
     url: 'https://daily-dispatch.vercel.app/',
     image: portfolioImage3,
+  },
+  {
+    title: 'Report Card',
+    description: 'This application is designed to assist teachers in their search for school districts that might better meet their financial needs and provide better work conditions. GraphQL was the most relevant piece of technology in the tech stack of our application. This was our team’s first experience building an application utilizing GraphQL. It was used to make queries and mutations to our back end GraphQL server. Our Back End team had four members. They hand crafted our GraphQL server leveraging various different RESTful APIs including National Center for Educational Statistics and a Python based Custom User database. Our team communicated consistently throughout the project about the different queries and mutations we needed from the Back End server to make for the Front End of the application. We leveraged the Apollo Client state management library for JavaScript in order to enable and manage both local and remote data with GraphQL. We also made use of built-in React Hooks from the Apollo Client library including the useQuery(), useLazyQuery(), and useMutation() hooks in order to manage the state of our application.',
+    url: 'https://reportcard-fe.vercel.app/',
+    image: portfolioImage4,
   },
   {
     title: 'Nunslinger',

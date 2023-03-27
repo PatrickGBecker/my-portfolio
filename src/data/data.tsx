@@ -16,6 +16,8 @@ import portfolioImage2 from '../images/portfolio/rancid-tomatillos.png';
 import portfolioImage3 from '../images/portfolio/daily-dispatch.png';
 import portfolioImage4 from '../images/portfolio/report-card.png'
 import portfolioImage5 from '../images/portfolio/mock-search-app.png';
+import portfolioImage6 from '../images/portfolio/muck-savage.png';
+import portfolioImage7 from '../images/portfolio/graphic-design.png';
 import profilepic from '../images/Headshot.png';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -94,7 +96,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I'm really interested in creating applications that people can use intuitively. I know how to work with JavaScript, React, TypeScript, Next.js, HTML/CSS and GraphQL. I thoroughly enjoy making progressive web apps that are accessible for everyone. I'm currently collaborating with back-end & full-stack developers to create an app that meaningfully displays comparative data from government APIs related to raising climate crisis awareness.  I'm also recreating various popular applications. Please message me to chat about anything and everything.`,
+  description: `I'm really interested in creating applications that people actually enjoy using. I know how to work with JavaScript, React, TypeScript, Next.js, HTML/CSS, GraphQL, Wordpress, Squarespace and Salesforce. I thoroughly enjoy making progressive web apps that are accessible for everyone. I'm currently freelancing as a Web Developer & Graphic Designer to built my industry knowledge and keep my skills sharp. The money doesn't hurt, either.  I'm also recreating various popular applications. Please message me to chat about anything and everything.`,
   aboutItems: [
     {label: 'Location', text: 'Independence, MO', Icon: MapIcon},
     {label: 'Age', text: '36', Icon: CalendarIcon},
@@ -130,7 +132,7 @@ export const skills: SkillGroup[] = [
       },
        {
         name: 'CSS & SCSS',
-        level: 8
+        level: 9
       },
        {
         name: 'HTML',
@@ -140,6 +142,10 @@ export const skills: SkillGroup[] = [
         name: 'GraphQL',
         level: 5
       },
+      {
+        name: 'Wordpress',
+        level: 7
+      }
     ],
   }
 ];
@@ -173,10 +179,22 @@ export const portfolioItems: PortfolioItem[] = [
     image: portfolioImage4,
   },
   {
+    title: 'Muck Savage website',
+    description: 'This is a website I created for my band, Muck Savage. It is a responsive site built in Wordpress. The purpose of this site was to create a responsive UI/UX design, a contact form that sends an email to the band, an easy way for users to hear our music and a page that displays the history of our performances.',
+    url: 'https://mucksavage.com/',
+    image: portfolioImage6,
+  },
+  {
     title: 'Nunslinger',
     description: 'A trio of Vanilla JS coders took on the challenge of learning TypeScript in React/React-Spring/Player to program a 2D reaction-based shooter mini game, all within a 10 day period. All game physics, player controls and logic were created by our team and all game art was hand-crafted by me in Adobe Photoshop. We wrote E2E testing in Cypress for the main page views, fetch calls, stubbing and interactive game play. We achieved this through asynchronous & paired programming with extensive project board planning in GitHub.',
     url: 'https://patrickgbecker.github.io/nunslinger/',
     image: portfolioImage1,
+  },
+  {
+    title: 'Digital Media Portfolio',
+    description: 'This site is a portfolio of my web app wireframes, graphic design work and multi-media art. The purpose of the site is to display my design skills and project planning abilities.',
+    url: 'https://patrickgbecker.myportfolio.com/',
+    image: portfolioImage7,
   }
 ];
 
@@ -199,6 +217,24 @@ export const education: TimelineItem[] = [
 ];
 
 export const experience: TimelineItem[] = [
+  {
+    date: 'November 2021 - Present',
+    location: 'Remote/Kansas City Metropolitan Area',
+    title: 'Freelance Frontend Software Developer & Graphic Designer',
+    content: (
+      <>
+        <p>
+          ● Design, build and deploy customized web applications/digital content for small businesses. Services include: product management, payment, email template integrations, custom forms, custom logos, icons, and SEO integration..
+        </p>
+        <p>
+          ● Developed a responsive UI/UX design for a website for a local band, Muck Savage, using Wordpress.
+        </p>
+        <p>
+          ● Designed, built and deployed a responsive website for Audio Engineering/Videography company, Cerulean Media, Using Next.js 13, Tailwind CSS and Sanity.io.
+        </p>
+      </>
+    )
+  },
   {
     date: 'March 2020 - March 2021',
     location: 'Westmont Hospitality Group',

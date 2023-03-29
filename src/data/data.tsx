@@ -181,7 +181,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Muck Savage website',
     description: 'This is a website I created for my band, Muck Savage. It is a responsive site built in Wordpress. The purpose of this site was to create a responsive UI/UX design, a contact form that sends an email to the band, an easy way for users to hear our music and a page that displays the history of our performances.',
-    url: 'https://mucksavage.com/',
+    url: 'https://muck-savage.com/',
     image: portfolioImage6,
   },
   {

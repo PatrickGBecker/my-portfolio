@@ -187,7 +187,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Nunslinger',
     description: 'A trio of Vanilla JS coders took on the challenge of learning TypeScript in React/React-Spring/Player to program a 2D reaction-based shooter mini game, all within a 10 day period. All game physics, player controls and logic were created by our team and all game art was hand-crafted by me in Adobe Photoshop. We wrote E2E testing in Cypress for the main page views, fetch calls, stubbing and interactive game play. We achieved this through asynchronous & paired programming with extensive project board planning in GitHub.',
-    url: 'https://patrickgbecker.github.io/nunslinger/',
+    url: 'https://lvlitsalon.squarespace.com',
     image: portfolioImage1,
   },
   {

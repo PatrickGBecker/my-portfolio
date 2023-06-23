@@ -175,7 +175,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Report Card',
     description: 'This application is designed to assist teachers in their search for school districts that might better meet their financial needs and provide better work conditions. GraphQL was the most relevant piece of technology in the tech stack of our application. This was our team’s first experience building an application utilizing GraphQL. It was used to make queries and mutations to our back end GraphQL server. Our Back End team had four members. They hand crafted our GraphQL server leveraging various different RESTful APIs including National Center for Educational Statistics and a Python based Custom User database. Our team communicated consistently throughout the project about the different queries and mutations we needed from the Back End server to make for the Front End of the application. We leveraged the Apollo Client state management library for JavaScript in order to enable and manage both local and remote data with GraphQL. We also made use of built-in React Hooks from the Apollo Client library including the useQuery(), useLazyQuery(), and useMutation() hooks in order to manage the state of our application.',
-    url: 'https://reportcard-fe.vercel.app/',
+    url: 'https://www.tiltonstherapy.com/',
     image: portfolioImage4,
   },
   {

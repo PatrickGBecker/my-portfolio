@@ -11,10 +11,10 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/background.png';
-import portfolioImage1 from '../images/portfolio/NUNSlinger-Cover.png';
+import portfolioImage1 from '../images/portfolio/lit-salon.png';
 import portfolioImage2 from '../images/portfolio/rancid-tomatillos.png';
 import portfolioImage3 from '../images/portfolio/daily-dispatch.png';
-import portfolioImage4 from '../images/portfolio/report-card.png'
+import portfolioImage4 from '../images/portfolio/tiltons-therapy.png'
 import portfolioImage5 from '../images/portfolio/mock-search-app.png';
 import portfolioImage6 from '../images/portfolio/muck-savage.png';
 import portfolioImage7 from '../images/portfolio/graphic-design.png';
@@ -155,6 +155,18 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
+    title: 'Tilton\'s Therapy',
+    description: 'This website was built for customers of Tilton\'s Therapy. It is a responsive site built in Squarespace. The purpose of this site was to create a responsive UI/UX design, display downloadable content for customers, encourage contact with therapists, provide an easy way for users to book appointments and a careers page that displays the company\'s job openings.',
+    url: 'https://www.tiltonstherapy.com/',
+    image: portfolioImage4,
+  },
+  {
+    title: 'Las Vegas Lit',
+    description: 'A Squarespace website created for Las Vegas Lit. The purpose of this site was to create a responsive UI/UX design, display upcoming events for readers and writers, encourage contact with the company, provide an easy way for users to purchase local writing and an about page that displays the company\'s mission statement.',
+    url: 'https://lvlitsalon.squarespace.com',
+    image: portfolioImage1,
+  },
+  {
     title: 'Mock-Search-App',
     description: 'An educational web app built with Next.js, Tailwind CSS and Mapbox. The purpose of this app was to create date & calendar functionality, search functionality that displays all listings, an image carousel, loading bars, Mapbox functionality and responsive UI/UX design implementations. Please note that most of the main page is for display only and the search functionality is limited to only populate results from downtown London. No personal information is taken from the user.',
     url: 'https://mock-search-app.vercel.app/',
@@ -173,22 +185,10 @@ export const portfolioItems: PortfolioItem[] = [
     image: portfolioImage3,
   },
   {
-    title: 'Report Card',
-    description: 'This application is designed to assist teachers in their search for school districts that might better meet their financial needs and provide better work conditions. GraphQL was the most relevant piece of technology in the tech stack of our application. This was our team’s first experience building an application utilizing GraphQL. It was used to make queries and mutations to our back end GraphQL server. Our Back End team had four members. They hand crafted our GraphQL server leveraging various different RESTful APIs including National Center for Educational Statistics and a Python based Custom User database. Our team communicated consistently throughout the project about the different queries and mutations we needed from the Back End server to make for the Front End of the application. We leveraged the Apollo Client state management library for JavaScript in order to enable and manage both local and remote data with GraphQL. We also made use of built-in React Hooks from the Apollo Client library including the useQuery(), useLazyQuery(), and useMutation() hooks in order to manage the state of our application.',
-    url: 'https://www.tiltonstherapy.com/',
-    image: portfolioImage4,
-  },
-  {
     title: 'Muck Savage website',
     description: 'This is a website I created for my band, Muck Savage. It is a responsive site built in Wordpress. The purpose of this site was to create a responsive UI/UX design, a contact form that sends an email to the band, an easy way for users to hear our music and a page that displays the history of our performances.',
     url: 'https://muck-savage.com/',
     image: portfolioImage6,
-  },
-  {
-    title: 'Nunslinger',
-    description: 'A trio of Vanilla JS coders took on the challenge of learning TypeScript in React/React-Spring/Player to program a 2D reaction-based shooter mini game, all within a 10 day period. All game physics, player controls and logic were created by our team and all game art was hand-crafted by me in Adobe Photoshop. We wrote E2E testing in Cypress for the main page views, fetch calls, stubbing and interactive game play. We achieved this through asynchronous & paired programming with extensive project board planning in GitHub.',
-    url: 'https://lvlitsalon.squarespace.com',
-    image: portfolioImage1,
   },
   {
     title: 'Digital Media Portfolio',
